@@ -7,11 +7,10 @@
 ![preview](public/assets/preview.jpg)
 
 | [Minimal Free](https://minimal-kit-react.vercel.app/) | [Minimal](https://material-ui.com/store/items/minimal-dashboard/) |
-| ----------------------------------------------------- | :---------------------------------------------------------------- |
-| **6** Demo pages                                      | **50+** demo pages                                                |
+| ----------------------------------------------------- | :----------------------------------------------------------------                                              |
 | -                                                     | ✓ Multi-language                                                  |
 | -                                                     | ✓ Dark/Light Mode 🌓                                              |
-| -                                                     | ✓ [More components](https://minimals.cc/components)               |
+| -                                                     | ✓ [More components]              |
 | -                                                     | ✓ Next.js version                                                 |
 | -                                                     | ✓ TypeScript version                                              |
 | -                                                     | ✓ Design files (Figma & Sketch)                                   |
@@ -35,6 +34,3 @@
 
 Distributed under the MIT License. See [LICENSE](https://github.com/minimal-ui-kit/minimal.free/blob/main/LICENSE.md) for more information.
 
-## Contact us
-
-Email Us: support@minimals.cc
