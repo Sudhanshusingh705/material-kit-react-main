@@ -17,6 +17,12 @@ const navConfig = [
     icon: icon('ic_user'),
   },
   {
+    title: 'connect your account',
+    path: '/dashboard/ConnectAccount',
+    icon: icon('ic_connect_account'),
+  },
+  { title: 'login', path: '/login', icon: icon('ic_lock') },
+  {
     title: 'product',
     path: '/dashboard/products',
     icon: icon('ic_cart'),
@@ -25,11 +31,6 @@ const navConfig = [
     title: 'blog',
     path: '/dashboard/blog',
     icon: icon('ic_blog'),
-  },
-  {
-    title: 'login',
-    path: '/login',
-    icon: icon('ic_lock'),
   },
   {
     title: 'Not found',

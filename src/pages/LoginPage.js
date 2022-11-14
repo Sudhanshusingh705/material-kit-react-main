@@ -46,7 +46,7 @@ export default function LoginPage() {
   return (
     <>
       <Helmet>
-        <title> Login | Minimal UI </title>
+        <title> Katalisia Panel </title>
       </Helmet>
 
       <StyledRoot>
