@@ -1,97 +1,42 @@
 import React from 'react';
-import { MDBBtn, MDBTable, MDBTableHead, MDBTableBody } from 'mdb-react-ui-kit';
+import './styles/connectAccount.css';
+import Button from '@mui/material/Button';
+import { Link as RouterLink} from 'react-router-dom';
+
 
 export default function App() {
   return (
-    <div>
-      <>
-        <MDBTable align="middle">
-          <MDBTableHead>
-            <tr>
-              <th scope="col">Name</th>
-              <th scope="col">Title</th>
-              <th scope="col">Position</th>
-            </tr>
-          </MDBTableHead>
-          <MDBTableBody>
-            <tr>
-              <td>
-                <div className="d-flex align-items-center">
-                  <img
-                    src="https://mdbootstrap.com/img/new/avatars/8.jpg"
-                    alt=""
-                    style={{ bordersize: '2px', width: '45px', height: '45px' }}
-                    className="rounded-circle"
-                  />
-                  <div className="ms-3">
-                    <p className="fw-bold mb-1">John Doe</p>
-                  </div>
-                </div>
-              </td>
-              <td>
-                <p className="fw-normal mb-1">Software engineer</p>
-                <p className="text-muted mb-0">IT department</p>
-              </td>
-              <td>Senior</td>
-              <td>
-                <MDBBtn color="link" rounded size="sm">
-                  Edit
-                </MDBBtn>
-              </td>
-            </tr>
-            <tr>
-              <td>
-                <div className="d-flex align-items-center">
-                  <img
-                    src="https://mdbootstrap.com/img/new/avatars/6.jpg"
-                    alt=""
-                    style={{ width: '45px', height: '45px' }}
-                    className="rounded-circle"
-                  />
-                  <div className="ms-3">
-                    <p className="fw-bold mb-1">Alex Ray</p>
-                  </div>
-                </div>
-              </td>
-              <td>
-                <p className="fw-normal mb-1">Consultant</p>
-                <p className="text-muted mb-0">Finance</p>
-              </td>
-              <td>Junior</td>
-              <td>
-                <MDBBtn color="link" rounded size="sm">
-                  Edit
-                </MDBBtn>
-              </td>
-            </tr>
-            <tr>
-              <td>
-                <div className="d-flex align-items-center">
-                  <img
-                    src="https://mdbootstrap.com/img/new/avatars/7.jpg"
-                    alt=""
-                    style={{ width: '45px', height: '45px' }}
-                    className="rounded-circle"
-                  />
-                </div>
-                <div className="ms-3">
-                  <p className="fw-bold mb-1">Alex Ray</p>
-                </div>
-              </td>
-              <td>
-                <p className="fw-normal mb-1">Designer</p>
-                <p className="text-muted mb-0">UI/UX</p>
-              </td>
-              <td>Senior</td>
-              <td>
-                <MDBBtn color="link" rounded size="sm">
-                  Edit
-                </MDBBtn>
-              </td>
-            </tr>
-          </MDBTableBody>
-        </MDBTable>
-      </>
+    <div className="container accContainer">
+      <h2 className="ms-2">Connect your social media account</h2>
+      <h2 className="mb-2 ms-2 profile">Custommer Profile</h2>
+
+      <div className="youtube">
+        <h2 className="mb-2 ms-2" style={{ borderBottom: '1px solid grey', padding: '10px' }}>
+          Your youtube Channels
+        </h2>
+
+        <Button
+          to="./styles/Independent.js"
+          size="large"
+          className="btn-sty"
+          color="warning"
+          variant="contained"
+          component={RouterLink}
+        >
+          Add Independent Account +
+        </Button>
+
+        <Button
+          to="./styles/Independent.js"
+          size="large"
+          variant="contained"
+          className="btn-sty"
+          color="warning"
+          component={RouterLink}
+        >
+          Update Linkedin Account +
+        </Button>
+      </div>
     </div>
   );
 }
