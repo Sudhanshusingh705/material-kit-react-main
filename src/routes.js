@@ -10,7 +10,7 @@ import LoginPage from './pages/LoginPage';
 import Page404 from './pages/Page404';
 import ProductsPage from './pages/ProductsPage';
 import DashboardAppPage from './pages/DashboardAppPage';
-
+import Auth from './pages/Auth';
 // ----------------------------------------------------------------------
 
 export default function Router() {
@@ -25,6 +25,7 @@ export default function Router() {
         { path: 'ConnectAccount', element: <ConnectAccount /> },
         { path: 'products', element: <ProductsPage /> },
         { path: 'blog', element: <BlogPage /> },
+        { path: 'auth', element: <Auth />  },
       ],
     },
     {
